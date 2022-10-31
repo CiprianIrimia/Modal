@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Modal</title>
+    <title>Modal window</title>
   </head>
   <body>
+    <button class="show-modal">Show modal 1</button>
+    <button class="show-modal">Show modal 2</button>
+    <button class="show-modal">Show modal 3</button>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>I'm a modal window 😉</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab velit
+        dolores harum iste dolorem blanditiis quam beatae illum nisi inventore
+        provident tenetur optio cum repellendus labore unde, consectetur fugiat
+        similique atque excepturi alias repudiandae? Tenetur laboriosam,
+        officia, vero facilis, culpa assumenda odit nobis dicta mollitia impedit
+        praesentium itaque velit non.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
     <script src="./script.js"></script>
   </body>
 </html>
